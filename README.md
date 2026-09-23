@@ -32,8 +32,7 @@
 
 ---
 ## 📂 ディレクトリ構成
-
-text
+---
 excel-data-cleaner/
 ├── data/
 │   ├── input/               # 各拠点から受領したExcelファイルを配置
