@@ -31,8 +31,9 @@
 ---
 
 ---
+
 ## 📂 ディレクトリ構成
----
+
 excel-data-cleaner/
 ├── data/
 │   ├── input/               # 各拠点から受領したExcelファイルを配置
@@ -46,6 +47,7 @@ excel-data-cleaner/
 ├── aggregator.py            # ピボット集計 & 装飾Excel出力ロジック
 ├── main.py                  # パイプライン一括実行スクリプト
 └── requirements.txt         # 依存ライブラリ一覧
+
 ---
 
 📊 出力レポート仕様
