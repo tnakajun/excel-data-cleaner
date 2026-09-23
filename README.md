@@ -73,6 +73,9 @@ excel-data-cleaner/
 pip install -r requirements.txt
 
 2. テスト用ダミーデータの生成（動作確認用）
+python generate_dummy_data.py
+
+3. パイプラインの実行
 python main.py
 
 ※ 処理完了後、data/output/monthly_sales_summary.xlsx に装飾済み集計レポートが生成されます。
