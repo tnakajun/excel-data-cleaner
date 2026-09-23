@@ -51,6 +51,7 @@ excel-data-cleaner/
 ```
 ---
 
+---
 ## 📊 出力レポート仕様
 ```text
 生成される monthly_sales_summary.xlsx は以下の2シートで構成されます。
@@ -63,8 +64,11 @@ excel-data-cleaner/
 
 担当者別 実績集計表: 拠点ごとの各営業担当者の売上実績一覧。
 ```
+---
 
-🚀 クイックスタート
+---
+## 🚀 クイックスタート
+```text
 1. 必要ライブラリのインストール
 pip install -r requirements.txt
 
@@ -72,6 +76,10 @@ pip install -r requirements.txt
 python main.py
 
 ※ 処理完了後、data/output/monthly_sales_summary.xlsx に装飾済み集計レポートが生成されます。
+```
+---
 
-📄 ライセンス
+---
+##📄 ライセンス
 本プロジェクトは MIT License のもとで公開されています。
+---
