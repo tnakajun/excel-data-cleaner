@@ -80,6 +80,5 @@ python main.py
 ---
 
 📄 ライセンス
-text
- 本プロジェクトは MIT License のもとで公開されています。
+本プロジェクトは MIT License のもとで公開されています。
 ---
