@@ -32,7 +32,6 @@
 
 ## 📂 ディレクトリ構成
 
-```
 text
 excel-data-cleaner/
 ├── data/
