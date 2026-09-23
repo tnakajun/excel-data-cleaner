@@ -46,3 +46,28 @@ excel-data-cleaner/
 ├── aggregator.py            # ピボット集計 & 装飾Excel出力ロジック
 ├── main.py                  # パイプライン一括実行スクリプト
 └── requirements.txt         # 依存ライブラリ一覧
+
+---
+
+📊 出力レポート仕様
+生成される monthly_sales_summary.xlsx は以下の2シートで構成されます。
+
+統合データマスタ: 全拠点のデータを正規化し、日付昇順でソートした統合明細テーブル。
+
+集計サマリー:
+
+拠点 × カテゴリー別 売上マトリクス: 各拠点のカテゴリ別売上と総合計。
+
+担当者別 実績集計表: 拠点ごとの各営業担当者の売上実績一覧。
+
+🚀 クイックスタート
+1. 必要ライブラリのインストール
+pip install -r requirements.txt
+
+2. テスト用ダミーデータの生成（動作確認用）
+python main.py
+
+※ 処理完了後、data/output/monthly_sales_summary.xlsx に装飾済み集計レポートが生成されます。
+
+📄 ライセンス
+本プロジェクトは MIT License のもとで公開されています。
